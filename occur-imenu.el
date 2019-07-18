@@ -1,8 +1,8 @@
 ;;; occur-imenu.el --- Display imenu as occur buffer  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2019  DREWOR020
+;; Copyright (C) 2019  Tobias Zawada
 
-;; Author: DREWOR020 <toz@smtp.1und1.de>
+;; Author: Tobias Zawada <i@tn-home.de>
 ;; Keywords: tools, matching, matching
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -20,7 +20,12 @@
 
 ;;; Commentary:
 
-;; 
+;;;; Installation:
+;; Put occur-imenu.el into your load path and add
+;; (autoload 'occur-imenu "occur-imenu")
+;; in your init file.
+;;;; Usage
+;; Call M-x occur-imenu in any buffer with Imenu support.
 
 ;;; Code:
 
