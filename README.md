@@ -45,3 +45,9 @@ Functions
 ```
 
 The example shows that semantic analyzes only a part of JavaScript's function definitions.
+
+# Installation
+Put the file `occur-imenu.el` somewhere in your load path. Compile if you want and add `(require 'occur-imenu)` to your init file.
+
+# Usage
+In any buffer that supports `imenu` you can call <kbd>M-x</kbd> `occur-imenu` <kbd>RET</kbd> to obtain the Imenu in an Occur buffer.
