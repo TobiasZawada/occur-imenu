@@ -1,4 +1,6 @@
 # occur-imenu
+
+## Intro
 Show imenu in an occur buffer.
 This library answers the question [How to show all functions in a javascript file](https://emacs.stackexchange.com/q/51686/2370).
 
@@ -46,8 +48,8 @@ Functions
 
 The example shows that semantic analyzes only a part of JavaScript's function definitions.
 
-# Installation
+## Installation
 Put the file `occur-imenu.el` somewhere in your load path. Compile if you want and add `(require 'occur-imenu)` to your init file.
 
-# Usage
+## Usage
 In any buffer that supports `imenu` you can call <kbd>M-x</kbd> `occur-imenu` <kbd>RET</kbd> to obtain the Imenu in an Occur buffer.
